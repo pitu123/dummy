@@ -1,4 +1,9 @@
 /*
+atom:
++ or green - added
+. or yellow - edited
+_ or red - removed
+
 ==git tuto==
 initialize a repo:
 git init
