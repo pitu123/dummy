@@ -1,12 +1,58 @@
 /*
 atom:
-+ or green - added
-. or yellow - edited
-_ or red - removed
++ green - added
+. (blue) yellow - edited
+_ red - removed
 
 ==git tuto==
+Working Dir | Staging Area | Repo (.git dir)
+Stage Fixes->	Commit->   <<-Checkout the proj
+
+help:
+> git help ß
+> git ß --help
+
+show conig:
+> git config --list
+
+set email:
+> git config --global user.email "ß"
+set name:
+> git config --global user.name "ß"
+
 initialize a repo:
-git init
+> git init
+
+status (track):
+> git status
+
+add (file to staging area):
+> git add ß
+
+add all (files to staging area):
+> git add -A
+
+remove (file from staging area):
+> git reset ß
+
+remove all (files from staging area):
+> git reset
+
+commit:
+> git commit -m "msg"
+
+commit log (hash):
+> git log
+
+ignore:
+> touch .gitignore
+.gitignore:
+  .DS_Store
+  .project
+  *.pcy (wildcard)
+
+clone remote repo:
+> git clone <url...or local> <where to clone>
 
 
 */
