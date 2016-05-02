@@ -54,7 +54,22 @@ ignore:
 clone remote repo:
 > git clone <url...or local> <where to clone>
 
+remote (list info of repo):
+> git remote -v
 
+branch (list branch of repo local & remote):
+> git branch -a
+
+diff (show changes):
+> git diff
+
+//origin - remote dir
+//master - branch
+pull (any changes made since last pull):
+> git pull origin master
+
+push (add - commit - push [remote]):
+> git push origin master
 */
 
 #include <iostream>
