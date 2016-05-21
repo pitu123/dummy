@@ -1,5 +1,5 @@
 /*
-atom (need reload to show the changes, if use git cmd via terminal):
+atom (need reload to show the changes, if use git cmd via terminal, after a commit):
 + green - added
 . (blue) yellow - edited
 _ red - removed
@@ -26,6 +26,9 @@ initialize a repo:
 status (track):
 > git status
 
+diff (show changes not staged):
+> git diff
+
 add (file to staging area):
 > git add ß
 
@@ -43,7 +46,7 @@ commit (files to local):
 
 commit log (of all commits):
 > git log
-//you can see all the commits and changes... git-plus :D ~ git diff
+//you can see all the commits and changes... git-plus :D
 
 //origin - remote dir
 //master - branch
@@ -68,10 +71,6 @@ remote (list info of repo):
 
 branch (list branch of repo local & remote):
 > git branch -a
-
-diff (show changes):
-> git diff
-
 */
 
 #include <iostream>
