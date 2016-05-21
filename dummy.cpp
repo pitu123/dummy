@@ -48,13 +48,14 @@ commit log (of all commits):
 > git log
 //you can see all the commits and changes... git-plus :D
 
-//origin - remote dir
-//master - branch
-push (files to remote):
-> git push origin master
+//origin - remote repo
+//master - branch (default)
 
 pull (any changes made since last pull):
 > git pull origin master
+
+push (files to remote):
+> git push origin master
 
 ignore:
 > touch .gitignore
@@ -69,8 +70,17 @@ clone remote repo:
 remote (list info of repo):
 > git remote -v
 
-branch (list branch of repo local & remote):
+list branch of repo local & remote):
 > git branch -a
+
+list branch (* is the actual working branch):
+> git branch
+
+create a branch:
+> git branch ß
+
+switch to another branch:
+> git checkout ß
 */
 
 #include <iostream>
