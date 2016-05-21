@@ -41,8 +41,9 @@ remove all (files from staging area):
 commit (files to local):
 > git commit -m "msg"
 
-commit log (hash):
+commit log (of all commits):
 > git log
+//you can see all the commits and changes... git-plus :D
 
 //origin - remote dir
 //master - branch
