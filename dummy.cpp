@@ -43,7 +43,7 @@ commit (files to local):
 
 commit log (of all commits):
 > git log
-//you can see all the commits and changes... git-plus :D
+//you can see all the commits and changes... git-plus :D ~ git diff
 
 //origin - remote dir
 //master - branch
@@ -80,7 +80,7 @@ using namespace std;
 
 int main(){
 	int i = 0;
-    while (i < 10)	
+    while (i < 10)
 		cout << i;
     return 0;
 }
