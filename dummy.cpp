@@ -81,6 +81,20 @@ create a branch:
 
 switch to another branch:
 > git checkout ß
+
+...push branch to remote...
+
+merge branch (merge ß branch to master):
+> git merge ß
+
+show merged branch list:
+> git branch --merged
+
+delete branch:
+> git branch -d ß
+
+...delete branch in remote...
+
 */
 
 #include <iostream>
