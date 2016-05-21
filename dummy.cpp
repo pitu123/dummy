@@ -1,5 +1,5 @@
 /*
-atom:
+atom (need reload to show the changes, if use git cmd via terminal):
 + green - added
 . (blue) yellow - edited
 _ red - removed
