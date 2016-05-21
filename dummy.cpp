@@ -1,4 +1,4 @@
-/*
+/*WORRRRRRKKKKKKK!!!!!!
 atom (need reload to show the changes, if use git cmd via terminal, after a commit):
 + green - added
 . (blue) yellow - edited
@@ -95,6 +95,7 @@ delete branch:
 
 ...delete branch in remote...
 
+//but wait, there is moar! follow github steps and search for explanation
 */
 
 #include <iostream>
