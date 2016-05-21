@@ -38,11 +38,19 @@ remove (file from staging area):
 remove all (files from staging area):
 > git reset
 
-commit:
+commit (files to local):
 > git commit -m "msg"
 
 commit log (hash):
 > git log
+
+//origin - remote dir
+//master - branch
+push (files to remote):
+> git push origin master
+
+pull (any changes made since last pull):
+> git pull origin master
 
 ignore:
 > touch .gitignore
@@ -63,13 +71,6 @@ branch (list branch of repo local & remote):
 diff (show changes):
 > git diff
 
-//origin - remote dir
-//master - branch
-pull (any changes made since last pull):
-> git pull origin master
-
-push (add - commit - push [remote]):
-> git push origin master
 */
 
 #include <iostream>
